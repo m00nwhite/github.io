@@ -22,7 +22,7 @@ export PATH=$PATH:/usr/local/bin/python3
 
 preference -> project Interpreter -> 右侧的Add按钮 
 添加System Interpreter
-![](http://yinyang.space/img/20201121_pycharm2.png)
+![](https://yinyang.space/img/20201121_pycharm2.png)
 
 添加Pipenv Environment
-![](http://yinyang.space/img/20201127_pycharm1.png)
+![](https://yinyang.space/img/20201127_pycharm1.png)

@@ -33,35 +33,35 @@ categories: bootstrap web
 
   - row: 主轴水平方向，从左至右排列
 
-    ![](http://yinyang.space/img/20210314_flex-row.png)
+    ![](https://yinyang.space/img/20210314_flex-row.png)
 
   - row-reverse：主轴水平方向，从右至左排列
 
-    ![](http://yinyang.space/img/20210314-flex-row-reverse.png)
+    ![](https://yinyang.space/img/20210314-flex-row-reverse.png)
 
   - column：主轴竖直方向，从上至下排列
 
-    ![](http://yinyang.space/img/20210314-flex-direction-column.png)
+    ![](https://yinyang.space/img/20210314-flex-direction-column.png)
 
   - column-reverse：主轴竖直方向，从下至上排列
 
-    ![](http://yinyang.space/img/20210314-flex-column-reverse.png)
+    ![](https://yinyang.space/img/20210314-flex-column-reverse.png)
 
 * flex-wrap/flex-nowrap ： 当容器显示不下时换行/不换行
 
   - flex-wrap:
 
-    ![](http://yinyang.space/img/20210314-wrap.png)
+    ![](https://yinyang.space/img/20210314-wrap.png)
 
   
 
-  - flex-nowrap:![](http://yinyang.space/img/20210314-nowrap.png)
+  - flex-nowrap:![](https://yinyang.space/img/20210314-nowrap.png)
 
   
 
 * flex-basis：定义了item元素的空间大小。
 
-  ![](http://yinyang.space/img/20210314-flex-basis.png)
+  ![](https://yinyang.space/img/20210314-flex-basis.png)
 
 * flex-grow：若被赋值为一个正整数， flex 元素会以 `flex-basis` 为基础，沿主轴方向增长尺寸，后面的数值为增长比例。
 
@@ -100,17 +100,17 @@ categories: bootstrap web
 
   - streth： 拉伸到最大容器对齐
 
-    ![](http://yinyang.space/img/20210314-flex-streth.png)
+    ![](https://yinyang.space/img/20210314-flex-streth.png)
 
-  - flex-start：![](http://yinyang.space/img/20210314-flex-align-start.png)
+  - flex-start：![](https://yinyang.space/img/20210314-flex-align-start.png)
 
   - flex-end
 
-    ![](http://yinyang.space/img/20210314-flex-item-end.png)
+    ![](https://yinyang.space/img/20210314-flex-item-end.png)
 
   - center
 
-    ![](http://yinyang.space/img/20210314-flex-center.png)
+    ![](https://yinyang.space/img/20210314-flex-center.png)
 
   
 
@@ -122,26 +122,26 @@ categories: bootstrap web
 
   - flex-start：
 
-    ![](http://yinyang.space/img/20210314-flex-justify-start.png)
+    ![](https://yinyang.space/img/20210314-flex-justify-start.png)
 
   - flex-end：
 
-    ![](http://yinyang.space/img/20210314-flex-justify-end.png)
+    ![](https://yinyang.space/img/20210314-flex-justify-end.png)
 
   - center：
 
-    ![](http://yinyang.space/img/20210314-flex-justify-center.png)
+    ![](https://yinyang.space/img/20210314-flex-justify-center.png)
 
   - space-evenly:
 
-    ![](http://yinyang.space/img/20210314-flex-space-evenly.png)
+    ![](https://yinyang.space/img/20210314-flex-space-evenly.png)
 
   - space-around：
 
-    ![](http://yinyang.space/img/20210314-flex-space-around.png)
+    ![](https://yinyang.space/img/20210314-flex-space-around.png)
 
   - space-between：
 
-    ![](http://yinyang.space/img/20210314-flex-space-between.png)
+    ![](https://yinyang.space/img/20210314-flex-space-between.png)
 
 * 

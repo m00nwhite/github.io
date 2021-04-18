@@ -46,7 +46,7 @@ mv composer.phar /usr/local/bin/composer
 # 2. PHPStorm配置Composer
 Preference -> Languages & Frameworks -> PHP -> Composer
 
-![](http://yinyang.space/img/20201123_composer.png)
+![](https://yinyang.space/img/20201123_composer.png)
 
 
 

@@ -203,4 +203,4 @@ exports.watch = watch;
 
 最后，在front目录执行`gulp watch`命令即可，效果如下：
 
-![](http://yinyang.space/img/20201219-gulp.gif)
+![](https://yinyang.space/img/20201219-gulp.gif)

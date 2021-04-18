@@ -120,7 +120,7 @@ npm install browser-sync --save-dev
 [21:41:30] The following tasks did not complete: css
 [21:41:30] Did you forget to signal async completion?
 ```
-![](http://yinyang.space/img/20201216_gulp1.png)
+![](https://yinyang.space/img/20201216_gulp1.png)
 
 错误代码：
 ```javascript

@@ -34,7 +34,7 @@ urlpatterns = [
 ```
 
 浏览器访问`localhost:8080`或者`localhost:8080/hello`查看效果：
-![](http://yinyang.space/img/20201126_django1_1.png)
+![](https://yinyang.space/img/20201126_django1_1.png)
 
 
 项目目录
@@ -76,7 +76,7 @@ urlpatterns = [
 ```
 
 访问localhost:8000/about，可以看到模版中的内容被view的内容替换了。
-![](http://yinyang.space/img/20201126_django1_2.png)
+![](https://yinyang.space/img/20201126_django1_2.png)
 
 
 ## 如何在URL中添加参数：
@@ -93,7 +93,7 @@ def paramtest1(request):
     path('paramtest1', views.paramtest1),
 
 ```
-![](http://yinyang.space/img/20201130_django.py)
+![](https://yinyang.space/img/20201130_django.py)
 
 另外一种传递参数的方式为采用在url中使用变量的方式，使用`<参数名>`的方式可以传递参数，参数名称必须和视图中保持一致，可以传递多个参数。
 ```python
@@ -106,7 +106,7 @@ def paramtest(request,req_id='123'):
     path('paramtest/<req_id>', views.paramtest),
 ```
 
-![](http://yinyang.space/img/20201130_django1.png)
+![](https://yinyang.space/img/20201130_django1.png)
 
 可以使用`<type:param>`的方式来指定参数的类型，比如`<str:param>`，`<int:param>`或者`<uuid:param>`等。支持的类型转换器如下：
 * str  : 除了斜杠'/'以外的所有的字符都是可以的；
@@ -152,10 +152,10 @@ urlpatterns = [
 ]
 ```
 url是会根据主urls.py和app中的urls.py进行拼接，因此注意不要多加斜杠。
-![](http://yinyang.space/img/20201130_django2.png)
+![](https://yinyang.space/img/20201130_django2.png)
 
 
-![](http://yinyang.space/img/20201130_django3.png)
+![](https://yinyang.space/img/20201130_django3.png)
 
 
 ## URL命名
@@ -199,7 +199,7 @@ redirect(reverse('front:login'))
 ```
 如果访问：`http://localhost:8000/cms1`，会重定向到`http://localhost:8000/cms/login` 而不是`http://localhost:8000/cms1/login`
 
-![](http://yinyang.space/img/20201130_django1.gif)
+![](https://yinyang.space/img/20201130_django1.gif)
 
 
 可以使用实例命名空间来解决这个问题，只需要在`include`函数中传递一个`namespace`变量即可：
@@ -223,7 +223,7 @@ def index(request):
         return redirect(login_url)
 ```
 
-![](http://yinyang.space/img/20201130_django3.gif)
+![](https://yinyang.space/img/20201130_django3.gif)
 
 
 ## inlcude函数的用法
@@ -252,7 +252,7 @@ def article_list(request, year):
     return HttpResponse("{} 年文章列表".format(year))
 ```
 
-![](http://yinyang.space/img/20201130_django5.png)
+![](https://yinyang.space/img/20201130_django5.png)
 
 ## reverse 传递参数
 试想实现一个功能，满足条件时redirect到一个需要传递参数的页面。
@@ -275,4 +275,4 @@ def index(request):
         return  redirect(detail_url)    
 ``` 
 
-![](http://yinyang.space/img/20201130_django4.gif)
+![](https://yinyang.space/img/20201130_django4.gif)

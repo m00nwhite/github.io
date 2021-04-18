@@ -44,7 +44,7 @@ pymysql.install_as_MySQLdb()
 ```
 
 如果没有pymysql模块，请使用pip安装
-![](http://yinyang.space/img/20201127_django2_1.png)
+![](https://yinyang.space/img/20201127_django2_1.png)
 
 
 ## 定义模型
@@ -55,15 +55,15 @@ django-admin.py startapp TestModel
 ```
 
 安装mysqlclient，报找不到mysql_config的错误请参考本文最后的常见错误及解决方法1
-![](http://yinyang.space/img/20201127_django2_2.png)
+![](https://yinyang.space/img/20201127_django2_2.png)
 
 
 
 在命令行中运行`python3 manage.py migrate` 来创建表结构
-![](http://yinyang.space/img/20201127_django2_3.png)
+![](https://yinyang.space/img/20201127_django2_3.png)
 
 执行成功后生成了这些表结构
-![](http://yinyang.space/img/20201127_django2_02.png)
+![](https://yinyang.space/img/20201127_django2_02.png)
 
 
 
@@ -71,17 +71,17 @@ django-admin.py startapp TestModel
 # 让 Django 知道我们在我们的模型有一些变更
 python3 manage.py makemigrations TestModel 
 ```
-![](http://yinyang.space/img/20201127_django2_4.png)
+![](https://yinyang.space/img/20201127_django2_4.png)
 
 
 ```bash
 # 创建表结构
 python3 manage.py migrate TestModel
 ```
-![](http://yinyang.space/img/20201127_django2_5.png)
+![](https://yinyang.space/img/20201127_django2_5.png)
 
 数据库上也可以看到已经生成了新的数据表：TestModel_test，表名的组成结构为：应用名_类名（如：TestModel_test）
-![](http://yinyang.space/img/20201127_django2_7.png)
+![](https://yinyang.space/img/20201127_django2_7.png)
 
 
 
@@ -106,10 +106,10 @@ urls.py中添加如下内容：
 
 
 浏览器访问`localhost:8080/testdb`，即可向数据库中添加一条记录
-![](http://yinyang.space/img/20201127_django2_8.png)
+![](https://yinyang.space/img/20201127_django2_8.png)
 
 登陆数据库查看：
-![](http://yinyang.space/img/20201127_django2_9.png)
+![](https://yinyang.space/img/20201127_django2_9.png)
 
 
 # 获取数据
@@ -222,7 +222,7 @@ pip install mysqlclient
 django.core.exceptions.ImproperlyConfigured: mysqlclient 1.4.0 or newer is required; you have 0.10.1.
 
 ```
-![](http://yinyang.space/img/20201127_django2_01.png)
+![](https://yinyang.space/img/20201127_django2_01.png)
 
 
 解决方法是在__init__.py文件中添加下面三行：

@@ -23,7 +23,7 @@ https://github.com/sass/node-sass/releases/tag/v4.14.1
     at Module._compile (node:internal/modules/cjs/loader:1108:14)
 ```
 
-![](http://yinyang.space/img/20210408_node_err.png)
+![](https://yinyang.space/img/20210408_node_err.png)
 
 不知道具体原因，但是下面的命令可以修复：
 ```bash

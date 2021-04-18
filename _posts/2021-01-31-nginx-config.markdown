@@ -8,7 +8,7 @@ categories: nginx django php-fpm fastcgi python php
 本文的目的是使用Nginx的虚拟主机功能在同一台服务器上配置多个域名，多域名之间可以使用不同架构，比如同时使用php的thinkphp或者Laravel和python的Django。
 主要架构思想为使用Nginx作为反向代理，配合php-fpm和fastcgi作为上游服务端提供服务。
 
-![](http://yinyang.space/img/20210131_nginx.png)
+![](https://yinyang.space/img/20210131_nginx.png)
 
 
 ## 1. 目录说明

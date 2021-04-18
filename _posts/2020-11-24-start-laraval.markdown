@@ -16,4 +16,4 @@ composer create-project laravel/laravel laravel.test "5.5.*"
 ```bash
 php artisan serve
 ```
-![](http://yinyang.space/img/20201124_laravel1.png)
+![](https://yinyang.space/img/20201124_laravel1.png)
