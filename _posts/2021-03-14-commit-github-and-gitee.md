@@ -18,7 +18,7 @@ git remote -v
 # 2 删除原有远程仓库，然后添加两个远程仓库
 git remote rm origin
 git remote add github git@github.com:geekhall/geekhall.cn.git
-git remote add github add gitee git@gitee.com:sjdt/geekhall.cn.git
+git remote add gitee git@gitee.com:sjdt/geekhall.cn.git
 
 # 2 拉代码，合并两个仓库的历史记录
 git pull gitee main --allow-unrelated-histories
