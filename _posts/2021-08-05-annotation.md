@@ -5,15 +5,26 @@ date:   2021-08-05 13:44:25 +0800
 categories: Annotation
 ---
 
-## 1. 原生注解
+## 原生注解
+Java 定义了一套注解，共有 7 个，3 个在 java.lang 中，剩下 4 个在 java.lang.annotation 中。
+
 |注解	| 作用 |
 |:----	|:---- |
-|@Target|	|
+|@Override |检查该方法是否是重写方法。如果发现其父类，或者是引用的接口中并没有该方法时，会报编译错误。	|
+|@Deprecated |标记过时方法。如果使用该方法，会报编译警告。	|
+|@SuppressWarnings |指示编译器去忽略注解中声明的警告。	|
 
+
+作用在其他注解的注解(或者说 元注解)是
+|注解	| 作用 |
+|:----	|:---- |
+|@Retention	|标识这个注解怎么保存，是只在代码中，还是编入class文件中，或者是在运行时可以通过反射访问。 |
+|@Documented	|标记这些注解是否包含在用户文档中。 |
+|@Target	|标记这个注解应该是哪种 Java 成员。 |
+|@Inherited	|标记这个注解是继承于哪个注解类(默认 注解并没有继承于任何子类) |
 
 
 ## Spring中的注解
-
 |注解	| 作用 |
 |:----	|:---- |
 |@SpringBootApplication|表示这是一个SpringBoot的应用，可以自启动|
@@ -22,7 +33,16 @@ categories: Annotation
 |@Repository|表示存储层Bean，用在持久层的接口上，这个注解是将接口的一个实现类交给spring管理|
 |@Service|表示业务层Bean，把对象交给Spring管理|
 |@Controller|表示展示层Bean，把对象交给Spring管理|
-‘’## JSR303校验
+|@Import|普通类导入到 IoC容器中|
+
+想要让一个普通类接受 Spring 容器管理，有以下方法
+
+* 使用 @Bean 注解
+* 使用 @Controller @Service @Repository @Component 注解标注该类，然后再使用 @ComponentScan 扫描包
+* @Import 方法
+
+
+## JSR303校验
 
 |Constraint	| 详细信息 |
 |:----	|:---- |
@@ -59,6 +79,7 @@ categories: Annotation
 |@ConditionalOnJndi|JNDI存在指定项|
 
 ## MyBatis中的注解：
+
 |注解	| 作用 |
 |:----	|:---- |
 |@Mapper|表示这是一个MyBatis的Mapper类，加了@Mapper注解之后接口在编译时会生成相应的实现类|
