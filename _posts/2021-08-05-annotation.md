@@ -1,5 +1,5 @@
 ---
-git@gitee.com:sjdt/geekhall.cn.gitlayout: post
+layout: post
 title:  "Annotation 笔记"
 date:   2021-08-05 13:44:25 +0800
 categories: Annotation

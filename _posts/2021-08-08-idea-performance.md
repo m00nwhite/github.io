@@ -1,5 +1,5 @@
 ---
-git@gitee.com:sjdt/geekhall.cn.gitlayout: post
+layout: post
 title:  "如何更改IDEA使用内存"
 date:   2021-08-08 10:10:25 +0800
 categories: IDEA

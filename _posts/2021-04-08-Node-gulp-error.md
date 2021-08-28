@@ -1,5 +1,5 @@
 ---
-git@gitee.com:sjdt/geekhall.cn.gitlayout: post
+layout: post
 title:  "gulp常见问题及解决方法"
 date:   2021-03-14 06:57:25 +0800
 categories: gulp

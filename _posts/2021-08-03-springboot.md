@@ -1,5 +1,5 @@
 ---
-git@gitee.com:sjdt/geekhall.cn.gitlayout: post
+layout: post
 title:  "SpringBoot 笔记"
 date:   2021-08-03 21:44:25 +0800
 categories: Spring

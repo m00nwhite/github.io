@@ -1,5 +1,5 @@
 ---
-git@gitee.com:sjdt/geekhall.cn.gitlayout: post
+layout: post
 title:  "IDEA 快捷键"
 date:   2021-08-05 21:44:25 +0800
 categories: IDEA 快捷键

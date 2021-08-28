@@ -1,5 +1,5 @@
 ---
-git@gitee.com:sjdt/geekhall.cn.gitlayout: post
+layout: post
 title:  "Bootstrap4 笔记"
 date:   2021-03-14 21:57:25 +0800
 categories: bootstrap web

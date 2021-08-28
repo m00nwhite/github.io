@@ -1,5 +1,5 @@
 ---
-git@gitee.com:sjdt/geekhall.cn.gitlayout: post
+layout: post
 title:  "ZooKeeper教程"
 date:   2021-05-07 21:14:25 +0800
 categories: zookeeper

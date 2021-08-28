@@ -1,5 +1,5 @@
 ---
-git@gitee.com:sjdt/geekhall.cn.gitlayout: post
+layout: post
 title:  "同时提交Github和Gitee"
 date:   2021-03-14 23:57:25 +0800
 categories: github gitee git
