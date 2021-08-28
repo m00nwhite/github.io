@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Django笔记：4.ORM"
+title:  "Django笔记：6.ORM"
 date:   2020-12-04 01:48:43 +0800
 categories: web
 ---

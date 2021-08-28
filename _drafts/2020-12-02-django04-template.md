@@ -51,7 +51,7 @@ categories: web django python template
 # 3. `for...in...`标签：
 `for...in...`类似于`Python`中的`for...in...`。可以遍历列表、元组、字符串、字典等一切可以遍历的对象。示例代码如下：
 
-```python
+```
  {％ raw ％} 
 {% for person in persons %}
 <p>{{ person.name }}</p>
@@ -61,7 +61,7 @@ categories: web django python template
 ```
 
 如果想要反向遍历，那么在遍历的时候就加上一个`reversed`。示例代码如下：
-```python
+```
  {％ raw ％} 
 
 {% for person in persons reversed %}
@@ -73,28 +73,28 @@ categories: web django python template
 
 遍历字典的时候，需要使用`items`、`keys`和`values`等方法。在`DTL`中，执行一个方法不能使用圆括号的形式。遍历字典示例代码如下：
 
-```python
+```
  {％ raw ％} 
 
 {% for key,value in person.items %}
 <p>key：{{ key }}</p>
 <p>value：{{ value }}</p>
 {% endfor %}
- {％ endraw ％} 
+{％ endraw ％} 
 
 ```
 
 ## 在`for`循环中，`DTL`提供了一些变量可供使用。这些变量如下：
 
-* forloop.counter：当前循环的下标。以1作为起始值。
-* forloop.counter0：当前循环的下标。以0作为起始值。
-* forloop.revcounter：当前循环的反向下标值。比如列表有5个元素，那么第一次遍历这个属性是等于5，第二次是4，以此类推。并且是以1作为最后一个元素的下标。
-* forloop.revcounter0：类似于forloop.revcounter。不同的是最后一个元素的下标是从0开始。
-* forloop.first：是否是第一次遍历。
-* forloop.last：是否是最后一次遍历。
-* forloop.parentloop：如果有多个循环嵌套，那么这个属性代表的是上一级的for循环。
+* `forloop.counter`：当前循环的下标。以1作为起始值。
+* `forloop.counter0`：当前循环的下标。以0作为起始值。
+* `forloop.revcounter`：当前循环的反向下标值。比如列表有5个元素，那么第一次遍历这个属性是等于5，第二次是4，以此类推。并且是以1作为最后一个元素的下标。
+* `forloop.revcounter0`：类似于`forloop.revcounter`。不同的是最后一个元素的下标是从0开始。
+* `forloop.first`：是否是第一次遍历。
+* `forloop.last`：是否是最后一次遍历。
+* `forloop.parentloop`：如果有多个循环嵌套，那么这个属性代表的是上一级的for循环。
  
-**模板中的for...in...没有continue和break语句，这一点和Python中有很大的不同，一定要记清楚！**
+**模板中的`for...in...`没有`continue`和`break`语句，这一点和`Python`中有很大的不同，一定要记清楚！**
 
 ## `for...in...empty`标签：
 这个标签使用跟`for...in...`是一样的，只不过是在遍历的对象如果没有元素的情况下，会执行`empty`中的内容。示例代码如下：
