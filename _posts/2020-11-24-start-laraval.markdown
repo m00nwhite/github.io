@@ -4,6 +4,8 @@ title:  "laravel笔记"
 date:   2020-11-24 02:35:18 +0800
 categories: web php
 ---
+* 目录
+{:toc}
 
 ## 安装
 使用composer下载laravel，composer的安装请参考[这里](http://moonwhite.site/php/web/2020/11/23/install-composer.html)

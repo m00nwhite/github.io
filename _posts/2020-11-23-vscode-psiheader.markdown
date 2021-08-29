@@ -4,6 +4,8 @@ title:  "vscode插件使用系列：1.psioniq File Header自动添加文件头"
 date:   2020-11-23 09:46:26 +0800
 categories: vscode
 ---
+* 目录
+{:toc}
 
 ## 安装
 使用vscode时经常需要重复性插入相同的文件头代码，或者Jekyll这种要求的固定格式文件头。使用`psioniq File Header`可以方便地满足这一需求，而且可以根据不同类型的文件设置生成不同的文件头内容和格式。

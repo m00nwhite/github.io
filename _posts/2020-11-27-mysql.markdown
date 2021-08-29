@@ -4,6 +4,8 @@ title:  "常用MySQL操作及问题备忘"
 date:   2020-11-27 08:50:30 +0800
 categories: web mysql
 ---
+* 目录
+{:toc}
 
 ## 常见安装配置问题
 

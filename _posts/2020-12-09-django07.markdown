@@ -4,6 +4,8 @@ title:  "Django笔记：7.views视图"
 date:   2020-12-09 08:28:17 +0800
 categories: web python django
 ---
+* 目录
+{:toc}
 
 
 # Paginator常用属性和方法

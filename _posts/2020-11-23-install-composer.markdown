@@ -4,6 +4,8 @@ title:  "Composer安装"
 date:   2020-11-23 14:10:02 +0800
 categories: php web
 ---
+* 目录
+{:toc}
 
 # 1. Composer 安装
 可以复制如下脚本保存并本地执行，用来下载composer.phar文件

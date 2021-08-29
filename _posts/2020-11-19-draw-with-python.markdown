@@ -4,6 +4,8 @@ title:  "使用python和matplotlib实现数据可视化"
 date:   2020-11-19 22:34:25 +0800
 categories: python matplotlib
 ---
+* 目录
+{:toc}
 
 ## 背景
 最近有个项目需要对批处理任务进行优化，批处理使用120个进程执行任务，但是任务之间存在依赖关系，任务执行的日志中记载了每个任务开始和结束的时间，看起来不够直观，于是考虑使用python和matplotlib进行可视化加以分析。

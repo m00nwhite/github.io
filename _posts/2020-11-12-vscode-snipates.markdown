@@ -4,6 +4,8 @@ title:  "VSCode 中 snippets 的使用"
 date:   2020-11-12 21:57:25 +0800
 categories: php web
 ---
+* 目录
+{:toc}
 
 ## 新建snippet
 

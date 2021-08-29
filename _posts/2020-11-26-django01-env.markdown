@@ -4,6 +4,8 @@ title:  "Django笔记：1. 开发环境及常用命令"
 date:   2020-11-26 04:17:36 +0800
 categories: web python django
 ---
+* 目录
+{:toc}
 
 # 1.Pycharm搭建开发环境
 pycharm 中新建工程，选择Existing interpreter。

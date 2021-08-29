@@ -4,6 +4,8 @@ title:  "使用gulp4.0搭建前端自动化开发环境"
 date:   2020-12-19 11:29:37 +0800
 categories: web gulp front
 ---
+* 目录
+{:toc}
 
 本文要实现的目的是使用gulp整合前端开发环境，当前端scss样式文件，JavaScript文件或者图片资源文件、html文件发生任何改变时，自动触发gulp进行压缩、合并、重命名、并使浏览器自动加载变更内容。
 

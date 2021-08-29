@@ -4,6 +4,8 @@ title:  "WordPress笔记"
 date:   2020-11-24 02:43:48 +0800
 categories: web php
 ---
+* 目录
+{:toc}
 
 ## 安装
 可以在MAMP的Hosts设定中添加WordPress支持，点击Extras下面的➕按钮，添加额外功能，选择WordPress后点击Continue：

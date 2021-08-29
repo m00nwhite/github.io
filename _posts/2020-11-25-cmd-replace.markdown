@@ -4,6 +4,8 @@ title:  "一些常用的linux命令"
 date:   2020-11-25 03:41:26 +0800
 categories: Linux
 ---
+* 目录
+{:toc}
 
 
 ## 批量替换

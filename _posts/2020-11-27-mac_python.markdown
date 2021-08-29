@@ -4,6 +4,8 @@ title:  "Mac下不同版本Python"
 date:   2020-11-27 10:44:58 +0800
 categories: mac python
 ---
+* 目录
+{:toc}
 
 官网下载升级安装了Python3.9，之前brew安装过python3.8，Mac自带了2.7，Pycharm使用virtualenv安装过3.7，各种情况的默认目录如下：
 

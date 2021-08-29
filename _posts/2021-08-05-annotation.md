@@ -2,8 +2,10 @@
 layout: post
 title:  "Annotation 笔记"
 date:   2021-08-05 13:44:25 +0800
-categories: Annotation
+categories: Java
 ---
+* 目录
+{:toc}
 
 ## 原生注解
 Java 定义了一套注解，共有 7 个，3 个在 java.lang 中，剩下 4 个在 java.lang.annotation 中。

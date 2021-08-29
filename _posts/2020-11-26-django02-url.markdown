@@ -4,6 +4,8 @@ title:  "Django笔记：2.视图和URL配置"
 date:   2020-11-26 06:24:34 +0800
 categories: web python django
 ---
+* 目录
+{:toc}
 
 视图一般都写在app的views.py中，视图的第一个参数永远都是request（一个HttpRrequest对象），这个对象存储了请求过来的所有信息。返回结果必须是HttpResponseBase对象或者子类的对象。
 

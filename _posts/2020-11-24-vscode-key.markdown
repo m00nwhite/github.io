@@ -4,6 +4,8 @@ title:  "vscode 常用快捷键"
 date:   2020-11-24 12:54:37 +0800
 categories: vscode
 ---
+* 目录
+{:toc}
 
 ## 多列选择和编辑
 方式1:<kbd>Option</kbd>➕鼠标左键依次点选

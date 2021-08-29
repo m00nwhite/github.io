@@ -4,6 +4,8 @@ title:  "如何更改IDEA使用内存"
 date:   2021-08-08 10:10:25 +0800
 categories: IDEA
 ---
+* 目录
+{:toc}
 
 ## 更改启动最大最小内存
 在访达中找到IDEA，右键“显示包内容”，找到bin/idea.vmoptions，编辑如下内容修改最小内存和最大内存：

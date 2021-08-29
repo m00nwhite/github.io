@@ -4,7 +4,8 @@ title:  "使用Alfred的workflow实现效率翻译"
 date:   2020-11-10 20:57:25 +0800
 categories: jekyll update
 ---
-
+* 目录
+{:toc}
 
 ## 1. 下载并安装效率神器Alfred
 关于Alfred的使用请参考[这里]()

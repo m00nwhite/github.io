@@ -4,6 +4,8 @@ title:  "IDEA 快捷键"
 date:   2021-08-05 21:44:25 +0800
 categories: IDEA 快捷键
 ---
+* 目录
+{:toc}
 
 ## 快捷键（Mac版）
 |快捷键|作用|

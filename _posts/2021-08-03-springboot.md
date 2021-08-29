@@ -4,6 +4,8 @@ title:  "SpringBoot 笔记"
 date:   2021-08-03 21:44:25 +0800
 categories: Spring
 ---
+* 目录
+{:toc}
 
 ## 原理初探
 自动配置：

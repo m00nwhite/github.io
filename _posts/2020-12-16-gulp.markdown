@@ -4,6 +4,8 @@ title:  "前端自动化开发环境搭建笔记"
 date:   2020-12-16 09:52:44 +0800
 categories: web nvm node npm gulp
 ---
+* 目录
+{:toc}
 
 
 ## 1. nvm的安装

@@ -4,6 +4,8 @@ title:  "Nginx虚拟主机的多域名配置"
 date:   2021-01-31 21:29:37 +0800
 categories: nginx django php-fpm fastcgi python php
 ---
+* 目录
+{:toc}
 
 本文的目的是使用Nginx的虚拟主机功能在同一台服务器上配置多个域名，多域名之间可以使用不同架构，比如同时使用php的thinkphp或者Laravel和python的Django。
 主要架构思想为使用Nginx作为反向代理，配合php-fpm和fastcgi作为上游服务端提供服务。

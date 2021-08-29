@@ -4,6 +4,8 @@ title:  "Oracle Partition相关操作"
 date:   2020-12-12 01:02:37 +0800
 categories: Oracle Partition
 ---
+* 目录
+{:toc}
 
 # 常用语句
 ```sql

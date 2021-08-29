@@ -4,6 +4,8 @@ title:  "Django笔记：3.创建模型"
 date:   2020-11-27 09:43:46 +0800
 categories: web python django
 ---
+* 目录
+{:toc}
 
 # 建库建用户
 ```sql
